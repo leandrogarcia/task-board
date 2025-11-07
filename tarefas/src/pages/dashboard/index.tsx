@@ -150,7 +150,7 @@ export default function Dashboard({ user }: HomeProps){
                                 )}
                                 <div className={styles.taskContent}> 
                                     {item.public ? (
-                                        <Link href={`/tasks/${item.id}`}><p>{item.tarefa}</p></Link>
+                                        <Link href={`/task/${item.id}`}><p>{item.tarefa}</p></Link>
                                     ):(
                                         <p>{item.tarefa}</p>
                                     )}
